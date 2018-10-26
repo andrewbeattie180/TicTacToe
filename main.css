@@ -1,0 +1,54 @@
+h1{
+    text-align:center;
+}
+
+td{
+    border: 5px solid #000000;
+    height:200px;
+    width:200px;
+    text-align:center;
+    vertical-align:middle;
+    font-family: "Helvetica", sans-serif;
+    font-size:70px;
+    cursor:pointer;
+}
+  
+table{
+    border-collapse:collapse;
+    position: absolute;
+    left:50%;
+    margin-left:-315px;
+    top:50px;
+}
+  
+table tr:first-child td {
+    border-top: 0;
+}
+table tr:last-child td {
+    border-bottom: 0;
+}
+table tr td:first-child{
+    border-left:0;
+}
+table tr td:last-child{
+    border-right:0;
+}
+.endgame{
+    display: none; 
+    width:240px;
+    top:258px;
+    background-color: rgba(20, 28, 136, 0.8);
+    position:absolute;
+    left:50%;
+    transform: translateX(-127px);
+    padding-top:100px;
+    padding-bottom:100px;
+    text-align:center;
+    border-radius:15px;
+    color:#ffffff;
+    font-size:2em;
+  }
+
+button{
+      font-size: 3em;
+}
